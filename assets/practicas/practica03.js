@@ -1,5 +1,5 @@
 // DOM
-let ejecutar = document.getElementById("ingr    esarDatos");
+let ejecutar = document.getElementById("ingresarDatos");
 
 let nombreUsuario = document.getElementById("nombreUsuario");
 let edadUsuario = document.getElementById("edadUsuario");
@@ -28,6 +28,7 @@ const cambiarDatos = () => {
   localStorage.setItem("documento", nombre);
 };
 
+//Guardar informacion en localStorage
 nombreUsuario.innerHTML = "Nombre: " + localStorage.getItem("nombre");
 edadUsuario.innerHTML = "Edad: " + localStorage.getItem("edad");
 direccionUsuario.innerHTML = "Direccion: " + localStorage.getItem("direccion");

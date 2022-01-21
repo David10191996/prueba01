@@ -152,3 +152,5 @@ if (departamento == "Valle del Cauca") {
     "Debes Digitar algunos de los departamentos señalados, tal cual como se muestran"
   );
 }
+
+//Esto es lo que modifique 
